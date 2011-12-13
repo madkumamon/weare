@@ -1,0 +1,11 @@
+w = {
+    '1' => [:set_email_promotions_preference, :associate_account, :change_revenue_share_tier, :associate_existing_account, :get_entity_type, :get_syndication_service, :get_all_syndication_services, :get_bulk_association_status, :get_supported_website_locales, :get_supported_website_locales_for_syndication_service, :get_users_preferred_locale, :set_users_preferred_locale, :add_syndication_service, :get_association_status, :get_website_url, :create_account, :create_ad_sense_account, :resend_verification_email, :get_email_promotions_preference, :get_bulk_approval_status, :get_website_locale, :get_approval_status, :get_developer_site_data],
+    '2' => [:generate_report]
+}
+
+
+
+w.each_pair {|k,v| h={}; v.each { |key| h[key]=k }
+
+}
+puts h

@@ -1,0 +1,36 @@
+  [1m[36m (295.9ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (388.1ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations` ON `schema_migrations` (`version`)
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-12-08 19:31:26 +0200
+Served asset /rails.png - 304 Not Modified (51ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-12-08 19:31:29 +0200
+  [1m[36m (0.1ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  Processing by Rails::InfoController#properties as */*
+Rendered inline template (10.1ms)
+Completed 200 OK in 71ms (Views: 70.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-12-09 18:25:57 +0200
+Served asset /rails.png - 304 Not Modified (155ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-12-09 18:26:01 +0200
+  [1m[36m (119.8ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  Processing by Rails::InfoController#properties as */*
+Rendered inline template (9.9ms)
+Completed 200 OK in 74ms (Views: 73.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2011-12-13 19:09:09 +0200
+Served asset /rails.png - 200 OK (87ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2011-12-13 19:09:14 +0200
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  Processing by Rails::InfoController#properties as HTML
+Rendered inline template (10.3ms)
+Completed 200 OK in 72ms (Views: 71.6ms | ActiveRecord: 0.0ms)
