@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Weare </title>
+  <%= stylesheet_link_tag 'home' %>
+  <%= javascript_include_tag :all %>
+  <%= csrf_meta_tag %>
+
+</head>
+<body>
+    <div class='welcome'>
+      <h1>Weare</h1>
+      <p>
+        Log In if you want see welcome page !
+      </p>
+      <div id="user_auth">
+        <%= link_to "Sign up", new_user_registration_path %> or <%= link_to "Sign in", new_user_session_path %>
+      </div>
+    </div>
+</body>
+</html>
+

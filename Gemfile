@@ -16,7 +16,13 @@ group :assets do
   gem 'uglifier', '>= 1.0.3'
 end
 
+# Haml
+gem "haml", "~> 3.1.4"
+
 gem 'jquery-rails'
+
+# Authorisation
+gem "devise", "~> 1.5.2"
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'

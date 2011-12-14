@@ -1,0 +1,24 @@
+!!!
+%html
+  %head
+    %title Replica
+    = stylesheet_link_tag :all
+    = javascript_include_tag :all
+    = csrf_meta_tag
+  %body
+    .sign_as
+      - if user_signed_in?
+        Signed in as #{current_user.email}. Not you?
+        \#{link_to "Sign out", destroy_user_session_path, :method => :delete}
+    %ul#button
+      %li.home
+        =link_to "Home", root_path
+      %li.family
+        %a{:href => "#"}
+          %span About Us
+      %li.calendar
+        %a{:href => "#"}
+          %span Contacts
+
+
+  = yield

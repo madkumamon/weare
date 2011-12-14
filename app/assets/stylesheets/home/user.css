@@ -1,0 +1,119 @@
+body, p, ol, ul, td {
+  font-family: 'Ubuntu', sans-serif;
+  font-size:   13px;
+  line-height: 18px;
+}
+
+#user_auth a{
+  font-family: 'Ubuntu', sans-serif;
+  font-size:   14px;
+  line-height: 18px;
+  text-decoration: none;
+  color:#727476;
+}
+
+.sign_as{
+margin: 10px 0 10px 10px;
+position: relative;
+
+}
+
+h1{
+font-weight: normal;
+}
+
+.welcome {
+    margin: 80px 0 0 5px;
+    padding:  10px;
+    position: relative;
+    color: #979899;
+    text-align: center;
+	}
+
+
+
+
+/*----------------------------------------------------------------------*/
+/* Navigation
+/*----------------------------------------------------------------------*/
+#button {
+	width: 12em;
+	border-right: 1px solid #000;
+	padding: 0 0 0 0;
+	font-family: 'Trebuchet MS', 'Lucida Grande', Verdana, Arial, sans-serif;
+	background-color: #b7b7b7;
+	color: #333;
+    float:left;
+    margin: 0 0 0 10px ;
+}
+
+#button ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+#button li {
+	border-bottom: 1px solid #b3b3b3;
+	margin: 0;
+	list-style: none;
+	list-style-image: none;
+}
+
+#button li a {
+	display: block;
+	padding: 5px 5px 5px 0.5em;
+	border-left: 10px solid #5f6266;
+	border-right: 10px solid #979899;
+	background-color: #727476;
+	color: #fff;
+	text-decoration: none;
+	width: 100%;
+}
+
+html>body #button li a {
+	width: auto;
+}
+
+#button li a:hover {
+	border-left: 10px solid #595959;
+	border-right: 10px solid #a1a1a1;
+	background-color: #7c7c7c;
+	color: #fff;
+}
+
+
+/* ------------------
+ styling for the tables
+   ------------------   */
+#rounded-corner
+{
+	font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+	font-size: 12px;
+	width: 480px;
+	border-collapse: collapse;
+}
+
+#rounded-corner th
+{
+	padding: 8px;
+	font-weight: normal;
+	font-size: 13px;
+	color: #039;
+	background: #c0c0c0;
+}
+#rounded-corner td
+{
+	padding: 8px;
+	background: #e8edff;
+	border-top: 1px solid #fff;
+	color: #669;
+}
+
+#rounded-corner tbody tr:hover td
+{
+	background: #d0dafd;
+}
+
+
